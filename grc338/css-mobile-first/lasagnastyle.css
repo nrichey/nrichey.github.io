@@ -1,0 +1,57 @@
+/*CSS DOCUMENT*/
+img {
+width: 100%; /*Please leave this line.*/
+<img src="lasagna.jpg" alt="A plated dish of lasagna photographed from the side.">
+background-size: cover;
+margin: 0 0 0 0;
+}
+h2{
+padding:0 0 0 1em;
+font-family: monospace;
+color: #cdcdcd;
+}
+h1{
+padding: 0 0 0 0;
+font-family: monospace;
+color: #D64B19;
+}
+body{
+background-color: #cdcdcd;
+margin: 0 4em;
+}
+h3{
+color: #D64B19;
+padding: 0 0 0 2em;
+font-size: 1.5em;
+}
+header{
+background-color: #ffffff;
+margin: 0 2;
+padding: 0 0 .25em 1em;
+}
+section.ingredients{
+background-color: #ffffff;
+padding: .25em;
+margin: 0 0 1em 0;
+font-family: monospace;
+}
+section.directions{
+background-color: #ffffff;
+padding: .25em;
+margin: 0 0 1em 0;
+font-family: monospace;
+}
+ul{
+color: #D64B19;
+font-size: 1em;
+}
+li{
+color: #D64B19;
+font-size: 1.25em;
+}
+figcaption{
+font-family: monospace;
+font-style: italic;
+padding: 0 0 1em 0;
+}
+]
