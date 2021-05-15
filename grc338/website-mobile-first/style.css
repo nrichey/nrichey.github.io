@@ -1,0 +1,78 @@
+/*CSS DOCUMENT*/
+img {
+    width: 100%; 
+}
+body {
+  background-color: #fffaee;
+  padding: 1em;
+}
+
+header img {
+  width: 80%;
+}
+
+h2{
+  color: #e0a06e;
+}
+
+h3 {
+  color: #547272;
+  font-family: serif;
+  font-size: 1.5em;
+}
+
+h4 {color: #265055;
+  font-family: serif;
+padding-bottom: 0;
+}
+
+p{
+  padding-top: 0;
+    color: #265055;
+    font-family: serif;
+}
+
+figure{
+  margin: 0;
+}
+
+.description {
+  font-family: serif;
+}
+
+.price{
+  color: #547272;
+  font-family: serif;
+  padding-top: 0;
+}
+
+section.menu ul {
+  padding: 0;
+    list-style: none;
+}
+
+ nav ul {
+  padding: 0.5em;
+  margin-bottom: 1.5em;
+  word-spacing: 0.8em;
+  font-size: 1.5em;
+
+ }
+ nav ul li {
+  display: inline;
+  list-style-type: none;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+ }
+
+ nav ul li a{
+   text-decoration: none;
+   color: #b6b7ab;
+ }
+
+ nav ul li a:hover{
+   color: #b6b7ab;
+ }
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
