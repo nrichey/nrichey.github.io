@@ -1,0 +1,89 @@
+/*CSS document*/
+
+body {
+font-family: urw-form, sans-serif;
+font-weight: 400;
+font-style: normal;
+    background: #FFF8F3;
+}
+
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+    font-family: urw-form, sans-serif;
+font-weight: 300;
+font-style: italic;
+    color: #736F6D;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+	max-width: 10em;
+	margin-bottom: 0;
+    margin-top: 0;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.5em;
+	color: #C2997C;
+}
+
+h2, h3, h4, nav {
+font-family: masqualero, sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+nav {
+	background-color: #bebebe;
+}
+
+ul {
+	text-decoration: none;
+    list-style-type: none;
+    padding: .6em;
+	text-align: center;
+}
+
+ul li {
+	margin: 1em;
+	display: inline-block;
+}
+
+nav ul li a:hover{
+  color: #C2997C;
+}
+
+nav a { /*just nav text is colored here, not all anchor elements*/
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+.story{
+	border: solid #000000;
+	margin: 2em;
+	padding: 2em;
+}
+
+footer {
+	text-align: center;
+}
