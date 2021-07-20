@@ -5,13 +5,21 @@ body {
 }
 
 div.container {
-    max-width: 80em;
+    max-width: 65em;
     margin: auto;
     margin-top: 2em;
 }
 
 figure {
     margin: 0em 0em 1em 0em;
+}
+
+figure.gallery {
+    margin: 0em 0em 1em 0em;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: left 0.5s, opacity 0.5s;
 }
 
 img {
@@ -61,6 +69,8 @@ h2,h3, h4, nva{
 
 section a{
     text-decoration: none;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 
@@ -85,6 +95,22 @@ figcaption{
     
 }
 
+nav.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.2em;
+}
+
+input{
+    display: none;
+}
+
+main.gallery{
+    position: relative;
+    overflow: #ddd;
+    padding-bottom: calc(72% + 3em);
+    margin-right: 0em;
+}
 
 section.tertiary{
     margin-bottom: 2em;
@@ -92,11 +118,22 @@ section.tertiary{
 
 section.secondary{
     background: #fff8f3;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 section.mainstory{
     background: #f5f5f5;
     padding: 1em 1em 0 1em;
+    margin-bottom: auto;
+}
+
+hr{
+    margin-bottom:6em;
+    margin-top: 6em;
+    border-style: solid;
+    border-width: 1.5px;
+    color: #D4E4E8;
 }
 
 h3.story{
@@ -146,7 +183,7 @@ aside.mainstory{
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1em;
         grid-column: 1/2;
-        margin: 0em 2em 0em 0em;
+        margin: 0em 2em 3em 0em;
     }
     
     section.mainstory{
@@ -169,4 +206,20 @@ aside.mainstory{
     h4.aside{
         margin-top: 6.3em;
     }
+   nav.gallery{
+        grid-column: 1/2;
+    }
+
+}
+
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+    opacity: 1;
 }
