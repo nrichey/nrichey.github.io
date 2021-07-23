@@ -225,6 +225,7 @@ button {
   font-size: 15px;
   font-family: urw-form, sans-serif;
   padding: 1.5em;
+margin-top: 1.5em;
 }
 
 section.form {
