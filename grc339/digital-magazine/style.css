@@ -55,6 +55,9 @@ div.logo{
     width: 25%;
 }
 
+input.gallery{
+    display: none;
+}
 
 h2,h3, h4, nva{
     text-decoration: none;
@@ -83,7 +86,7 @@ p{
 
 
 footer{
-    margin-top: 2em;
+    margin-top: 0;
 }
 
 
@@ -101,14 +104,10 @@ nav.gallery{
     grid-gap: 0.2em;
 }
 
-input{
-    display: none;
-}
-
 main.gallery{
     position: relative;
     overflow: #ddd;
-    padding-bottom: calc(72% + 3em);
+    padding-bottom: calc(72% + .1em);
     margin-right: 0em;
 }
 
@@ -126,14 +125,6 @@ section.mainstory{
     background: #f5f5f5;
     padding: 1em 1em 0 1em;
     margin-bottom: auto;
-}
-
-hr{
-    margin-bottom:6em;
-    margin-top: 6em;
-    border-style: solid;
-    border-width: 1.5px;
-    color: #D4E4E8;
 }
 
 h3.story{
@@ -222,4 +213,57 @@ input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
 input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
 input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
     opacity: 1;
+}
+
+
+button {
+  border-radius: 4px;
+  background-color: #c2997c;
+  border: none;
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 15px;
+  font-family: urw-form, sans-serif;
+  padding: 1.5em;
+}
+
+section.form {
+  margin: 0em 0em 2em 0em;
+    padding: inherit;
+}
+
+section.order-form{
+    padding: inherit;
+}
+
+
+textarea {
+  min-width: 60em;
+  min-height: 5em;
+  display: block;
+  font-family: urw-form, sans-serif;
+  font-weight: 200;
+font-style: normal;
+    display: flex;
+	flex-wrap: wrap;
+}
+main.subscription {
+  grid:none;
+}
+label {
+  flex: 1 0 10em;
+font-family: urw-form, sans-serif;
+  font-weight: 200;
+font-style: normal; 
+}
+input[type="checkbox"] {
+    display: inline-block;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+h3, h4.subscription{
+    text-transform:inherit;
 }
